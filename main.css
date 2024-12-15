@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 3rem 7rem;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 0 0 5px;
+  line-height: 2.5rem;
+}
+
+.anees_image{
+  height: 4rem;
+}
+
+.text-pink-500 {
+  background: linear-gradient(60deg, #5d015d, #f961f9, #f220f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.4rem;
+  border-radius: 20px;
+  margin-right: 0.85rem;
+  font-size: 0.7rem;
+}
+
+.ml-3{
+  font-size: 0.7rem;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+a {
+  text-decoration: underline;
+    color: black;
+    font-weight: 100;
+    margin-right: 1rem;
+    font-size: 0.85rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 20px 0px;
+    max-width: 900px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.text-underline {
+  text-decoration: underline ;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-section img {
+  width: 9rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.works {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.works-image {
+  width: 22rem;
+  border-radius: 12px;
+  height: 13rem;
+  object-fit: cover;
+}
+
+.works2-image {
+  height: 20rem;
+    object-fit: contain;
+}
+
+.work-text {
+  margin: 0 0 0.6rem;
+}
