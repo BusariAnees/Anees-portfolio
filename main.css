@@ -59,9 +59,7 @@ section {
     max-width: 900px;
 }
 
-footer {
-  margin-top: 30px;
-}
+
 
 .text-underline {
   text-decoration: underline ;
@@ -98,4 +96,42 @@ footer {
 
 .work-text {
   margin: 0 0 0.6rem;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+footer img {
+  height: 8rem;
+    margin-right: 9rem;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding: 3rem;
+  }
+
+  h1{
+    font-size: 1.8rem;
+  }
+
+  .first-section img {
+    height: 6rem;
+    margin-top: 7rem;
+  }
+
+  .works {
+    display: block;
+  }
+  footer img {
+    height: 4rem;
+    width: 7rem;
+    margin-right: 0px;
+  }
 }
